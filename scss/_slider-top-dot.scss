@@ -1,0 +1,9 @@
+.slider-top-dot {
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    background-color: $color_dot_top;
+}
+.active-dot-top {
+    background-color: $color_dot_top_active;
+}

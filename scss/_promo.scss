@@ -1,0 +1,27 @@
+.promo {
+    .goods-flex {
+        margin-left: 30px;
+    }
+}
+.promo-content {
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+    div {
+        width: 250px;
+        padding: 25px;
+        text-align: center;
+        border-radius: 10px;
+        box-shadow: 0.1em 0.4em 0.7em 7px rgba(0, 0, 0, 0.17);
+    }
+    div p {
+        text-align: left;
+    }
+}
+.green-pr {
+    color: #36873E;
+    margin: 0;
+    font-weight: 700;
+    text-align: right;
+}
+

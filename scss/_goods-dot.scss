@@ -1,0 +1,12 @@
+.goods-dot {
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    background-color: $color_dot;
+}
+.active-dot {
+    background-color: $color_font_goods;
+}
+.display-dot {
+    display: none;
+}

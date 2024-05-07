@@ -1,0 +1,10 @@
+.goods-flex {
+    display: flex;
+    gap: 35px;
+    button {
+        cursor: pointer;
+        background: none;
+        border: none;
+        color: $color_font_goods;
+    }
+}

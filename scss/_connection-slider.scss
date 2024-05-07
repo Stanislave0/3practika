@@ -1,0 +1,46 @@
+@mixin buttons {
+    margin: 0;
+    top: 0;
+    position: absolute;
+    height: 100%;
+    width: 60px;
+    background: none;
+    border: none;
+    border-radius: 0;
+}
+.connection-slider {
+    position: absolute;
+    text-align: center;
+    width: 350px;
+    height: 370px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    top: 10%;
+    right: 15%;
+    img {
+        width: auto;
+    }
+    button {
+        cursor:pointer;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        padding: 10px 8px;
+        width: 200px;
+        margin-top: 30px;
+        border: none;
+        border-radius: 10px;
+        border: 1px solid $color_price;
+        color: $color_price;
+    }
+    .connection-prev {
+        @include buttons;
+        left: -90px;
+        
+    }
+    .connection-next {
+        @include buttons;
+        right: -90px;
+    }
+}

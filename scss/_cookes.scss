@@ -1,0 +1,41 @@
+.cookes-wrapper {
+    display: none;
+    animation: cooks 1s;
+}
+.cookes {
+    color: white;
+    position: fixed;
+    display: flex;
+    bottom: 30px;
+    right: 30px;
+    max-width: 440px;
+    background-color: $color_cookes;
+    border-radius: 15px;
+    padding: 10px 20px;
+    p {
+        margin: 0;
+    }
+    button {
+        cursor: pointer;
+        margin-left: 5px;
+        font-family: "Montserrat", sans-serif;
+        font-size: 16px;
+        color: white;
+        background-color: black;
+        border-radius: 15px;
+        border: none;
+        padding: 1px 15px;
+    }
+    a {
+        color: #8ECE15;
+        text-decoration: underline;
+    }
+}
+@keyframes cooks {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

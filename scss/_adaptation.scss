@@ -1,0 +1,238 @@
+@media (max-width: 1540px) {
+    .header-bottom-flex1 {
+        margin-left: 0;
+    }
+}
+@media (max-width:1330px) {
+    .header-top {
+        padding: 10px 50px 10px 50px;
+    }
+    .header-bottom {
+        padding: 10px 50px 10px 50px;
+    }
+    .main {
+        padding: 80px 50px;
+    }
+    .connection__form {
+        top: 3%;
+        left: 10%;
+    }
+    .connection-slider {
+        top: 3%;
+        right: 10%;
+    }
+    .goods-wrapper {
+        margin: 0 40px;
+    }
+    .footer {
+        padding: 30px 50px;
+        bottom: -290px;
+    }
+}
+@media (max-width: 1070px) {
+    .about-us img {
+        height: 300px;
+        width: 500px;
+    }
+    .header-top {
+        div:first-child {
+            display: none;
+        }
+    }
+    .info-slide {
+        padding: 15px 150px 15px 15px;
+        p {
+            font-size: 16px;
+        }
+    }
+    // .connection {
+    //     margin-top: 400px;
+    // }
+    .connection__form {
+        width: 300px;
+    }
+    .connection-slider {
+        width: 270px;
+    }
+    .connection__img{
+        min-height: 560px;
+        object-fit: cover;
+    }
+    
+}
+@media (max-width: 950px) {
+    .work-process-flex {
+        gap: 30px;
+        div:nth-child(-n+4)::after {
+            width: 30px;
+            right: -31px;
+        }
+    }
+    .footer {
+        height: 400px;
+        bottom: -380px;
+    }
+    .footer-flex {
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    .header-top {
+        padding: 10px 20px 10px 20px;
+        .header-top-flex {
+        gap: 30px;
+    }
+    }
+    .header-bottom {
+        padding: 10px 20px 10px 20px;
+    }
+    .header-bottom-flex1 {
+        display: none;
+    }
+}
+@media (max-width:840px) {
+    .connection {
+        margin-top: 400px;
+    }
+    .connection__form {
+        left: 30%;
+    }
+    .connection-slider {
+        top: -450px;
+        right: 30%;
+        box-shadow: 0.1em 0.4em 0.7em 7px rgba(0, 0, 0, 0.17);
+        .connection-prev, .connection-next {
+            background: rgb(0,0,0,0.15);
+            border-radius: 10px;
+        }
+    }
+}
+
+
+
+@media (max-width:768px) {
+    
+    .info-slide {
+        font-size: 14px;
+        max-width: 400px;
+        padding: 15px 30px 15px 15px;
+        bottom: 67%;
+    }
+    
+    .connection-slider {
+        top: -450px;
+        right: 20%;
+    }
+    .connection__img{
+        min-height: 520px;
+        object-fit: cover;
+    }
+    .footer-flex {
+        grid-template-columns: 1fr;
+    }
+    .footer {
+        height: 530px;
+        bottom: -520px;
+    }
+    .about-us {
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .header-burger {
+        display: block;
+    }
+    .header-top .header-top-flex {
+        display: none;
+    }
+    .work-process-flex {
+        overflow: auto;
+    }
+}
+@media (max-width: 666px) {
+    .connection__form {
+        left: 25%;
+    }
+    .goods-list {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    .connection-slider {
+        top: -470px;
+        right: 19%;
+        padding: 10px;
+    }
+    body {
+        font-size: 14px;
+    }
+    .connection-slider .connection-next {
+        top: 107%;
+        height: 50px;
+        right: 10px;
+    }
+    .connection-slider .connection-prev {
+        top: 107%;
+        height: 50px;
+        left: 10px;
+    }
+    .about-us img {
+        height: 200px;
+        width: 400px;
+    }
+    .slider-top {
+        height: 350px;
+        img {
+            object-fit: cover;
+        }
+    }
+}
+@media (max-width: 530px) {
+    .connection__form {
+        left: 22%;
+    }
+    .header-bottom-flex2 {
+        display: none;
+    }
+    .main {
+        padding: 80px 20px;
+    }
+}
+@media (max-width: 470px) {
+    .connection-slider {
+        right: 9%;
+    }
+    .cookes {
+        max-width: 280px;
+    }
+    .footer {
+        padding: 25px 20px;
+    }
+    .goods-slider .goods-slider-list div img {
+        display: block;
+        width: 231px;
+        height: 141px;
+    }
+    .connection__form {
+        width: 300px;
+    }
+    .goods-flex {
+        gap: 10px;
+    }
+    h2 {
+        font-size: 22px;
+    }
+    .about-us img {
+        height: 200px;
+        width: 300px;
+    }
+}
+@media (max-width: 410px) {
+    .connection__form {
+        left: 8%;
+    }
+    .connection-slider {
+        right: 8%;
+        padding: 5px;
+        width: 300px;
+    }
+}

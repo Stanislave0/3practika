@@ -1,0 +1,42 @@
+.connection__form {
+    width: 370px;
+    display: block;
+    color: white;
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    h2 {
+        margin-top: 0;
+    }
+    textarea {
+        resize: none;
+        width: 100%;
+        border: none;
+        outline: none;
+        height: 60px;
+        font-family: "Montserrat", sans-serif;
+    }
+    div {
+        padding: 10px;
+        background-color: white;
+        border-radius: 10px;
+        margin-bottom: 15px;
+    }
+    input {
+        width: 99%;
+        outline: none;
+        border: none;
+        font-family: "Montserrat", sans-serif;
+    }
+    button {
+        cursor: pointer;
+        font-family: "Montserrat", sans-serif;
+        font-size: 16px;
+        color: white;
+        width: 100%;
+        padding: 15px 10px;
+        border: none;
+        border-radius: 10px;
+        background-color: $color_price;
+    }
+}
