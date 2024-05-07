@@ -1,0 +1,47 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+h2 {
+    font-size: 36px;
+}
+@import "scss/colors";
+@import "scss/header";
+@import "scss/header-top";
+@import "scss/header-bottom";
+@import "scss/header-bottom-flex1";
+@import "scss/header-bottom-flex2";
+@import "scss/slider-top";
+@import "scss/about-us";
+@import "scss/main";
+@import "scss/work-process";
+@import "scss/work-process-flex";
+@import "scss/goods";
+@import "scss/goods-list";
+@import "scss/goods-flex";
+@import "scss/goods-slider";
+@import "scss/goods-dots";
+@import "scss/goods-dot";
+@import "scss/goods-prev";
+@import "scss/goods-next";
+@import "scss/connection";
+@import "scss/connection__form";
+@import "scss/footer";
+@import "scss/connection-slider";
+@import "scss/connection-slider-dot";
+@import "scss/connection-wrapper";
+@import "scss/footer-flex";
+@import "scss/footer-flex__button";
+@import "scss/links";
+@import "scss/info-slide";
+@import "scss/slider-top-dots";
+@import "scss/slider-top-dot";
+@import "scss/goods-wrapper";
+@import "scss/cookes";
+@import "scss/header_burger";
+@import "scss/adaptation";
+@import "scss/promo";
